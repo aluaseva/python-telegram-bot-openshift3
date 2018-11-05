@@ -8,8 +8,7 @@ from telegram.ext import Dispatcher, CommandHandler, MessageHandler, Updater, Fi
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
 logger = logging.getLogger(__name__)
-TOKEN = '693266929:AAHv5cYEQmTI0kkClSWNK-CtRr7oqrXp3mI'
-
+TOKEN = '743076902:AAG3uxLD3aA8ZrIwHyFOTFVQPtdXkR1php8'
 
 def start(bot, update):
     """Send a message when the command /start is issued."""
